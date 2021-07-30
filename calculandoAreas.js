@@ -46,16 +46,18 @@ console.log(area1 + area2) */
 
 //Empresa: Snowball Church
 //Escadaria 3º andar
-let degraus3;
+/* let degraus3;
 const degrauLargura3 = 0.35;
 const degrauComprimento3 = 1.10;
 const degrauAltura3 = 0.18;
+
+let quantidadeDegraus3 = 14;
 
 let patamares3;
 const patamarLargura3 = 2.50;
 const patamarComprimento3 = 3.10;
 
-degraus3 = (degrauLargura3 + degrauComprimento3) * degrauAltura3;
+degraus3 = (degrauAltura3 + degrauLargura3) * degrauComprimento3;
 patamar3 = patamarLargura3 * patamarComprimento3;
 
 let terceiroAndar;
@@ -63,6 +65,7 @@ let terceiroAndar;
 console.log(degraus3.toFixed(2))
 console.log(patamar3.toFixed(2)) 
 terceiroAndar = degraus3 + patamar3;
+terceiroAndar = quantidadeDegraus3 * degraus3;
 console.log(terceiroAndar)
 
 
@@ -72,7 +75,7 @@ const degrauLargura2 = .35;
 const degrauComprimento2 = 1.10;
 const degrauAltura2 = .18;
 
-let quantidadeDegraus = 10;
+let quantidadeDegraus2 = 14;
 
 let patamares2;
 const patamarLargura2 = 4.50;
@@ -80,9 +83,9 @@ const patamarComprimento2 = 2.95;
 
 let segundoAndar;
 
-degraus2 = (degrauLargura2 + degrauComprimento2) * degrauAltura2;
+degraus2 = (degrauAltura2 + degrauLargura2) * degrauComprimento2;
 patamares2 = patamarLargura2 * patamarComprimento2;
-segundoAndar = quantidadeDegraus * degraus2;
+segundoAndar = quantidadeDegraus2 * degraus2;
 console.log(segundoAndar)
 
 console.log(degraus2.toFixed(2))
@@ -91,4 +94,31 @@ segundoAndar = degraus2 + patamares2;
 console.log(segundoAndar.toFixed(2))
 
 let andares
-console.log(terceiroAndar + segundoAndar);
+console.log(terceiroAndar + segundoAndar); */
+
+
+//teste
+let degraus2;
+let degrauLargura2 = .35;
+let degrauComprimento2 = 1.10;
+let degrauAltura2 = .18;
+
+let quantidadeDegraus2 = 10;
+
+degraus2 = (degrauAltura2 + degrauLargura2) * degrauComprimento2 * quantidadeDegraus2;
+console.log(degraus2.toFixed(2))
+
+let degraus3;
+let degrauLargura3 = .35;
+let degrauComprimento3 = 2.10;
+let degrauAltura3 = .20;
+
+let quantidadeDegraus3 = 15;
+
+degraus3 = (degrauLargura3 + degrauComprimento3) * degrauAltura3 * quantidadeDegraus3;
+console.log(degraus3.toFixed(2))
+
+let totalAreas;
+totalAreas = degraus2 + degraus3;
+console.log(totalAreas)
+
