@@ -18,7 +18,7 @@ x = 'oi'; */
      /* const resultado = 2 + 2; */
      /* return  2 + 2; //a linha return deve ser a última linha do bloco
     } */
-   /*  console.log(soma()); */            
+   /*console.log(soma()); */            
 
 let listaFuncionarios = ['José', 'Ana', 'Luiza']
 let listaIdades = [22,19,33]
@@ -32,8 +32,6 @@ const exibeLista = (lista, descricao) => {
 }
 console.log(exibeLista(listaFuncionarios, 'Funcionário: '))
 console.log(exibeLista(listaIdades, "Idades: "))
-
-
 
 
 //detalhando a estrutura do código acima:
